@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>survey-form</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="header">
+            <h1 id="title">Your OS Form</h1>
+            <p id="description" class="description text-center">
+                Thank you for taking the time to help us improve the platform
+            </p>
+        </header>
+        <form id="survey-form">
+            <div class="form-group">
+                <label id="name-label" for="name">Name</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required />
+            </div>
+            <div class="form-group">
+                <label id="email-label" for="email">Email</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required />
+            </div>
+            <div class="form-group">
+                <label id="number-label" for="number">Age<span class="clue">(optional)</span></label>
+                <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age" />
+                <div class="form-group">
+                    <label id="email-label" for="email">your OS</label>
+                    <select id="dropdown" name="role" class="form-control" required>
+                        <option disabled selected value>choose your os</option>
+                        <option value="student">Windows</option>
+                        <option value="job">Linux</option>
+                        <option value="learner">MacOS</option>
+                        <option value="preferNo">FreeBSD</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <p>Favourite OS</p>
+                    <label>
+                        <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked />Linux</label>
+                    <label>
+                        <input name="user-recommend" value="maybe" type="radio" class="input-radio" />MacOS</label>
+
+                    <label><input name="user-recommend" value="not-sure" type="radio" class="input-radio" />Windows</label>
+                </div>
+                <div class="form-group">
+                    <p>Any comments or suggestions?</p>
+                    <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" id="submit" class="submit-button">
+                        Submit
+                    </button>
+                </div>
+        </form>
+    </div>
+    </div>
+</body>
+
+</html>
