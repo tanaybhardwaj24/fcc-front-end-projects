@@ -1,0 +1,73 @@
+html {
+  font-size: 10px;
+  font-family: monospace;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+}
+
+#title {
+  text-align: center;
+  font-family: monospace;
+  font-size: 4rem;
+}
+
+p {
+  text-align: center;
+  font-family: monospace;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-caption{
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+#tribute-info{
+  font-family:monospace;
+  font-size:2rem;
+  text-align: center;
+}
+
+#headline{
+  color: grey;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+#tribute-link {
+
+}
