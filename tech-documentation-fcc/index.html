@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <title>C Documentation</title>
+    </head>
+<nav id="navbar">
+    <header>C lang</header>
+    <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li>
+            <a class="nav-link" href="#What_you_should_already_know">What you should already know</a>
+        </li>
+        <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
+        <li><a class="nav-link" href="#Variables">Variables</a></li>
+        <li>
+            <a class="nav-link" href="#Integer_Numbers">Integer Numbers</a>
+        </li>
+        <li><a class="nav-link" href="#Reference">Reference</a></li>
+    </ul>
+</nav>
+<main id="main-doc">
+    <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>C (/siː/, as in the letter c) is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system. By design, C provides constructs that map efficiently to typical machine instructions. It has found lasting use in applications previously coded in assembly language. Such applications include operating systems and various application software for computer architectures that range from supercomputers to PLCs and embedded systems.</p>
+        <section>
+            <section class="main-section" id="What_you_should_already_know">
+                <header>What you should already know</header>
+                <article>
+                    <p>This guide assumes you have the following basic background:</p>
+
+                    <ul>
+                        <li>
+                            A general understanding of computers
+                        </li>
+                        <li>Good interest in computers</li>
+                    </ul>
+                </article>
+            </section>
+            <section class="main-section" id="Hello_world">
+                <header>Hello world</header>
+                <article>
+                    <p>to get started with c first we should write a hello world program!</p>
+                    <p>if you are on linux or macos just copy paste this code to a file and save it as hello.c</p>
+                    <p>then open up your terminal and write gcc -o hello hello.c</p>
+                    <p> run ./hello and viola it prints hello world </P>
+                    <code>#include <stdio.h>
+                            int main void(){
+                            printf('hello world')
+                            }
+                    </code>
+                </article>
+            </section>
+            <section class="main-section" id="Variables">
+                <header>Variables</header>
+                <p>
+                    C is a statically typed language.
+                </p>
+                <p>
+                    This means that any variable has an associated type, and this type is known at compilation time.
+                </p>
+                <p>
+                    When you create a variable in C, you have to specify the type of a variable at the declaration.
+
+                    In this example we initialize a variable age with type int:
+                </p>
+                <code>
+                    int age;
+                </code>
+                <p>
+                    You can also initialize a variable at declaration, specifying the initial value:
+                </p>
+                <code>
+                    int age = 37;
+                </code>
+            </section>
+            <section class="main-section" id="Integer_Numbers">
+                <header>Integer Numbers</header>
+                <article>
+                    <p>
+                        C provides us the following types to define values
+                    </p>
+                    <p>
+                        these are
+                    <ul>
+                        <li><code>char</code></li>
+                        <li><code>int</code></li>
+                        <li><code>short</code></li>
+                        <li><code>long</code></li>
+                    </ul>
+                    </p>
+                </article>
+                <section class="main-section" id="Reference">
+                    <header>Reference</header>
+                    <article>
+                        <ul>
+                            <li>
+                                All the documentation in this page is taken from
+                                <a href="https://www.freecodecamp.org/news/the-c-beginners-handbook/" target="_blank">The C Handbook</a>
+                            </li>
+                        </ul>
+                    </article>
+                </section>
+</main>
+</html>
