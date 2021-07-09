@@ -1,2 +1,1 @@
-# fcc-front-end-projects
-i thought the name was clear -_-
+my fcc projects
